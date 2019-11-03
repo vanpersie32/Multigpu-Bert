@@ -1,4 +1,12 @@
 # BERT
+Introduction
+This is an enhanced version of official Bert model. It supports multi-gpu pre-training and validation during pre-training.
+The following features are supported
+|                            | pretraining | Fine-tuning | 
+|--------------------------- |:-----------:| :---------: |
+| Multiple GPU Training      |     ✓       |      ✗      |
+| Multiple GPU Evaluation    |     ✓       |      ✗      |
+| Validation During Training |     ✓       |      ✗      |
 
 **\*\*\*\*\* New May 31st, 2019: Whole Word Masking Models \*\*\*\*\***
 
